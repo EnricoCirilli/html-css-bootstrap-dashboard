@@ -1,7 +1,6 @@
 .wrapper{
     width: 100%;
     height: 100vh;
-    border: 2px solid red;
 }
 .header{
     height: 80px;
@@ -10,23 +9,20 @@
 .main{
     width: 100%;
     height: calc(100vh - 50px);
-    border: 2px solid blue;
-    background-color: lightblue;
     display: flex;
 }
 .side-bar-left{
    width: 80px;
    height: calc(100vh - 50px);
-   background-color: red;
 }
 .side-bar-right{
     width: calc(100% - 80px);
     height: calc(100vh - 50px);
-    background-color: green;
 }
 .new-student{
-    border: 2px solid black;
     height: 100px;
+    background-color: #1B72E8;
+    color: white;
 }
 .box-l{
     background-color:#051E34;
