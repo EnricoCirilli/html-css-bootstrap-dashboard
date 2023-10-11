@@ -15,4 +15,15 @@
     height: calc(100vh - 50px);
     border: 2px solid blue;
     background-color: lightblue;
+    display: flex;
+}
+.side-bar-left{
+   width: 100px;
+   height: calc(100vh - 50px);
+   background-color: red;
+}
+.side-bar-right{
+    width: calc(100% - 100px);
+    height: calc(100vh - 50px);
+    background-color: green;
 }
