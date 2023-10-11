@@ -19,7 +19,7 @@
     width: calc(100% - 80px);
     height: calc(100vh - 50px);
 }
-.new-student{
+.ms_new-student{
     height: 100px;
     background-color: #1B72E8;
     color: white;
