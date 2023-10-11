@@ -4,10 +4,7 @@
     border: 2px solid red;
 }
 .header{
-    width: 100%;
     height: 80px;
-    border: 2px solid green;
-    background-color: greenyellow;
 
 }
 .main{
@@ -18,16 +15,28 @@
     display: flex;
 }
 .side-bar-left{
-   width: 100px;
+   width: 80px;
    height: calc(100vh - 50px);
    background-color: red;
 }
 .side-bar-right{
-    width: calc(100% - 100px);
+    width: calc(100% - 80px);
     height: calc(100vh - 50px);
     background-color: green;
 }
 .new-student{
     border: 2px solid black;
     height: 100px;
+}
+.box-l{
+    background-color:#051E34;
+    color: white;
+    width: 100%;
+    height: calc(100vh - 50px - 100px);
+}
+.box-r{
+     width: 100%;
+     background-color:#051E34;
+     color: white;
+     height: 100px;
 }
