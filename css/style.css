@@ -27,3 +27,7 @@
     height: calc(100vh - 50px);
     background-color: green;
 }
+.new-student{
+    border: 2px solid black;
+    height: 100px;
+}
