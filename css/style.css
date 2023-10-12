@@ -39,7 +39,7 @@
     color: white;
     width: 100%;
     height: calc(100vh - 50px - 100px);
-    
+
 }
 .box-r{
      width: 100%;
@@ -50,7 +50,7 @@
 .blaze a{
     background-color: #165BBA;
     padding: 2px;
-    
+
 }
 .fa-bell{
     color: darkgoldenrod;
@@ -84,6 +84,8 @@
 }
 ._ms-h3{
     background-color: #E5E5E5;
-    border: 1px solid grey;
-   
+    border: 1px solid grey
+
+}
+._ms-card-kitchen-sink{
 }
