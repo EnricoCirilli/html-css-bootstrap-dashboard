@@ -79,3 +79,11 @@
 .fa-trash,.fa-pen{
     color: grey;
 }
+._ms-central-box{
+    background-color: #E5E5E5;
+}
+._ms-h3{
+    background-color: #E5E5E5;
+    border: 1px solid grey;
+   
+}
