@@ -69,5 +69,17 @@
     width: 50px;
     height: 50px;
     background-color: #E5E5E5;
-    
+
+}
+.fa-code{
+    background-color: #F26551;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+}
+.done{
+    border: green solid 4px;
+}
+.fa-trash,.fa-pen{
+    color: grey;
 }
