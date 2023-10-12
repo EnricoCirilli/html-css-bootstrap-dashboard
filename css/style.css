@@ -4,7 +4,13 @@
 }
 .header{
     height: 80px;
-    border: solid 3px yellow;
+    border: solid 3px green;
+}
+.img{
+    max-width: 100px;
+}
+._ms-mobile-logo{
+    width: 50px;
 }
 .main{
     width: 100%;
@@ -14,7 +20,12 @@
 .side-bar-left{
    width: 80px;
    height: calc(100vh - 80px);
-   border: solid 3px yellow;
+   border: solid 3px orange;
+}
+@media screen and (min-width:992px) {
+    .side-bar-left{
+        width: 160px;
+    }
 }
 .side-bar-right{
     width: calc(100% - 80px);
@@ -43,5 +54,20 @@
 .blaze a{
     background-color: #165BBA;
     padding: 2px;
+    
+}
+.fa-bell{
+    color: darkgoldenrod;
+}
+.fa-ellipsis-vertical,.fa-circle-question,.fa-list{
+    color: grey;
+}
+.form-control{
+   background-color: #E5E5E5;
+}
+.magnifying{
+    width: 50px;
+    height: 50px;
+    background-color: #E5E5E5;
     
 }
