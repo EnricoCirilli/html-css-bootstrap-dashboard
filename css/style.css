@@ -4,7 +4,6 @@
 }
 .header{
     height: 80px;
-    border: solid 3px green;
 }
 .img{
     max-width: 100px;
@@ -20,7 +19,6 @@
 .side-bar-left{
    width: 80px;
    height: calc(100vh - 80px);
-   border: solid 3px orange;
 }
 @media screen and (min-width:992px) {
     .side-bar-left{
@@ -30,13 +28,11 @@
 .side-bar-right{
     width: calc(100% - 80px);
     height: calc(100vh - 80px);
-    border: solid 3px yellow;
 }
 .ms_new-student{
     height: calc(100vh - 80px -150px);
     background-color: #1B72E8;
     color: white;
-    border: solid 3px yellow;
 }
 .box-l{
     background-color:#051E34;
